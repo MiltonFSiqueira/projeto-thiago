@@ -1,0 +1,82 @@
+@charset "=UTF -8";
+@font-face {
+    font-family:"Miyabon";
+    src: url("Miyabon.ttf")format("truetype"),url("Miyabon.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+Utilizando fontes externas utizando @font-face
+*/
+body{
+    background-color: #aea9a9;
+}
+header{
+    background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
+ 
+}
+div{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;   
+}
+img{
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 300px;
+    margin: 15px;
+    border: 5px solid #606062;
+ }
+ h1{
+    font-size: 35px;
+    font-family: "Miyabon";
+    font-style: italic;
+    padding: 10px;
+    border: 5px solid #606062;
+ }
+ h2{
+    font-size: 27px;
+    font-family:"Miyabon";
+    color: #343437;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+ }
+ h3{
+    font-size: 35px;
+    font-family: "Miyabon";
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #606062;
+    border-bottom: 2px solid #606062;
+    margin-top: 35px;
+    margin-bottom: 35px;
+ }
+ p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 32px;
+    color: #343437;
+    margin-top: 15px;
+}
+span{
+    font-weight: bold;
+}
+a{
+    width: 5px;
+    height: 5px;
+padding: 20px 10px ;
+   
+}
+.whats img{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 3px;
+    z-index: 9999;
+   
+}
