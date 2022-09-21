@@ -10,10 +10,11 @@ Utilizando fontes externas utizando @font-face
 */
 body{
     background-color: #aea9a9;
+
 }
 header{
     background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
- 
+
 }
 div{
     width: 100%;
@@ -63,6 +64,16 @@ img{
     color: #343437;
     margin-top: 15px;
 }
+.Info{
+    margin: 50px ;
+    font-size: 20px;
+    color: rgb(243, 243, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 1px 5px;  
+    
+}
+
 span{
     font-weight: bold;
 }
@@ -72,11 +83,20 @@ a{
 padding: 20px 10px ;
    
 }
+
+
 .whats img{
     width: 70px;
     height: 70px;
     position: fixed;
     bottom: 3px;
     z-index: 9999;
-   
-}
+   }
+
+  .mapa{
+    position: relative;
+    padding: 25px;
+       
+    }
+
+ 
