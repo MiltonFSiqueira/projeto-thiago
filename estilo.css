@@ -1,51 +1,59 @@
 @charset "=UTF -8";
+
 @font-face {
-    font-family:"Miyabon";
-    src: url("Miyabon.ttf")format("truetype"),url("Miyabon.otf") format("opentype");
+    font-family: "Miyabon";
+    src: url("Miyabon.ttf")format("truetype"), url("Miyabon.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
+
 /*
 Utilizando fontes externas utizando @font-face
 */
-body{
+body {
     background-color: #aea9a9;
 
 }
-header{
-    background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
 
+header {
+    background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
+    padding-bottom: 5px;
 }
-div{
+
+div {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
 }
-img{
+
+img {
     width: 300px;
     margin-bottom: 20px;
     border-radius: 150px;
     height: 300px;
     margin: 15px;
     border: 5px solid #606062;
- }
- h1{
+}
+
+h1 {
     font-size: 35px;
     font-family: "Miyabon";
     font-style: italic;
     padding: 10px;
     border: 5px solid #606062;
- }
- h2{
+}
+
+h2 {
     font-size: 27px;
-    font-family:"Miyabon";
+    font-family: "Miyabon";
     color: #343437;
     margin-top: 35px;
     margin-bottom: 35px;
-    
- }
- h3{
+
+}
+
+h3 {
     font-size: 35px;
     font-family: "Miyabon";
     font-weight: normal;
@@ -55,8 +63,9 @@ img{
     border-bottom: 2px solid #606062;
     margin-top: 35px;
     margin-bottom: 35px;
- }
- p{
+}
+
+p {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
@@ -64,39 +73,67 @@ img{
     color: #343437;
     margin-top: 15px;
 }
-.Info{
-    margin: 20px ;
+
+.Info {
+    margin: 0px 20px;
     font-size: 20px;
     color: rgb(243, 243, 14);
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    padding: 1px 5px;  
-    
-}
-
-span{
-    font-weight: bold;
-}
-a{
+    padding: 0px 10px;
+    text-decoration: none;
+    border-radius: 20px;
     width: 5px;
     height: 5px;
-padding: 20px 10px ;
    
 }
 
+span {
+    font-weight: bold;
+}
 
-.whats img{
+
+
+a:hover{
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+
+.whats img {
     width: 70px;
     height: 70px;
     position: fixed;
     bottom: 3px;
     z-index: 9999;
-   }
+}
 
-  .mapa{
+.mapa {
     position: relative;
     padding: 25px;
-       
-    }
+}
 
- 
+.rodape{
+    background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.rodape p{
+    color: rgb(30, 30, 0); 
+}
+
+@media (min-width: 420px) {
+    header, main, footer, div{
+        width: auto;
+    } 
+
+    iframe{
+        width: 100%;
+    }
+    
+}
+
+
+
