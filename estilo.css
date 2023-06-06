@@ -132,6 +132,16 @@ a:hover{
     iframe{
         width: 100%;
     }
+}
+
+@media (min-width: 320px) {
+    header, main, footer, div{
+        width: auto;
+    } 
+
+    iframe{
+        width: 100%;
+    }
     
 }
 
