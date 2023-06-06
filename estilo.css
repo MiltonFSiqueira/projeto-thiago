@@ -124,7 +124,7 @@ a:hover{
     color: rgb(30, 30, 0); 
 }
 
-@media (min-width: 420px) {
+@media (max-width: 1366px) {
     header, main, footer, div{
         width: auto;
     } 
@@ -134,7 +134,7 @@ a:hover{
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 1024px) {
     header, main, footer, div{
         width: auto;
     } 
@@ -144,6 +144,46 @@ a:hover{
     }
     
 }
+
+@media (max-width: 768px) {
+    header, main, footer, div{
+        width: auto;
+    } 
+
+    iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header, main, footer, div{
+        width: auto;
+    } 
+
+    iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    header, main, footer, div{
+        width: auto;
+    } 
+
+    iframe{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
