@@ -160,6 +160,10 @@ a:hover{
         width: auto;
     } 
 
+    h1, h2, h3, p{
+        font-size: 10px;
+    }
+
     iframe{
         width: 100%;
     }
@@ -169,10 +173,14 @@ a:hover{
     height: 35px;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px){
     header, main, footer, div{
         width: auto;
     } 
+
+    h1, h2, h3, p{
+        font-size: 10px;
+    }
 
     iframe{
         width: 100%;
