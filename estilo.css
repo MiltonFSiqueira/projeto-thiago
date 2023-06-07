@@ -161,8 +161,12 @@ a:hover{
         width: auto;
     } 
 
-    h1, h2, h3, p{
-        font-size: 25px;
+    p{
+        font-size: 20px;
+    }
+
+    h1, h2, h3{
+        font-size: 30px;
     }
 
     img{
@@ -184,10 +188,14 @@ a:hover{
         width: auto;
     } 
 
-    h1, h2, h3, p{
+    p{
         font-size: 25px;
     }
 
+    h1, h2, h3{
+        font-size: 30px;
+    }
+    
     img{
         width: 150px;
         height: 150px;
