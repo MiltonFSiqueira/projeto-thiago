@@ -40,7 +40,7 @@ h1 {
     font-size: 35px;
     font-family: "Miyabon";
     font-style: italic;
-    padding: 10px; 
+    padding: 10px;
     border: 5px solid #606062;
 }
 
@@ -66,7 +66,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
     line-height: 32px;
@@ -86,7 +86,6 @@ p {
     border-radius: 20px;
     width: 5px;
     height: 5px;
-   
 }
 
 span {
@@ -95,7 +94,7 @@ span {
 
 
 
-a:hover{
+a:hover {
     transition: 0.5s;
     font-size: 25px;
 }
@@ -114,112 +113,100 @@ a:hover{
     padding: 25px;
 }
 
-.rodape{
+.rodape {
     background-image: url("fundo 2222pente-e-das-tesouras-fundo-do-vetor-78631289.jpg");
     display: flex;
     justify-content: center;
     margin: 0;
 }
 
-.rodape p{
-    color: rgb(30, 30, 0); 
+.rodape p {
+    color: rgb(30, 30, 0);
 }
 
 @media (max-width: 1366px) {
-    header, main, footer, div{
+    header, main, footer, div {
         width: auto;
-    } 
+    }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 }
 
 @media (max-width: 1024px) {
-    header, main, footer, div{
+    header, main, footer, div {
         width: auto;
-    } 
+    }
 
-    iframe{
+    iframe {
         width: 100%;
     }
-    
+
 }
 
 @media (max-width: 768px) {
-    header, main, footer, div{
+    header, main, footer, div {
         width: auto;
-    } 
+    }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 }
 
 @media (max-width: 480px) {
-    header, main, footer, div{
+    header, main, footer, div {
         width: auto;
-    } 
-
-    p{
-        font-size: 20px;
     }
 
-    h1, h2, h3{
+    p {
+        font-size: 15px;
+    }
+
+    h1, h2, h3 {
         font-size: 30px;
     }
 
-    img{
-        width: 150px;
-        height: 150px;
+    img {
+        width: 200px;
+        height: 200px;
     }
 
-    iframe{
+    iframe {
         width: 100%;
     }
 
     .whats img {
         width: 35px;
-    height: 35px;
-}
-
-@media screen and (max-width: 375px){
-    header, main, footer, div{
-        width: auto;
-    } 
-
-    p{
-        font-size: 25px;
+        height: 35px;
     }
 
-    h1, h2, h3{
-        font-size: 30px;
+    @media screen and (max-width: 375px) {
+        header, main, footer, div {
+            width: auto;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        h1, h2, h3 {
+            font-size: 30px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        iframe {
+            width: 100%;
+        }
+
+        .whats img {
+            width: 35px;
+            height: 35px;
+        }
+
     }
-    
-    img{
-        width: 150px;
-        height: 150px;
-    }
-
-    iframe{
-        width: 100%;
-    }
-
-    .whats img {
-        width: 35px;
-    height: 35px;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
