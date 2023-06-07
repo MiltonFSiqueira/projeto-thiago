@@ -30,7 +30,7 @@ div {
 img {
     width: 300px;
     margin-bottom: 20px;
-    border-radius: 150px;
+    border-radius: 50%;
     height: 300px;
     margin: 15px;
     border: 5px solid #606062;
@@ -40,7 +40,7 @@ h1 {
     font-size: 35px;
     font-family: "Miyabon";
     font-style: italic;
-    padding: 10px;
+    padding: 10px; 
     border: 5px solid #606062;
 }
 
@@ -72,6 +72,7 @@ p {
     line-height: 32px;
     color: #343437;
     margin-top: 15px;
+    padding: 0 20px;
 }
 
 .Info {
@@ -164,6 +165,11 @@ a:hover{
         font-size: 10px;
     }
 
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
     iframe{
         width: 100%;
     }
@@ -179,7 +185,12 @@ a:hover{
     } 
 
     h1, h2, h3, p{
-        font-size: 10px;
+        font-size: 20px;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
     }
 
     iframe{
