@@ -77,7 +77,7 @@ p {
 
 .Info {
     margin: 0px 20px;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(243, 243, 14);
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -160,6 +160,10 @@ a:hover {
         width: auto;
     }
 
+    .Info{
+        font-size: 15px;
+    }
+
     p {
         font-size: 15px;
     }
@@ -185,6 +189,10 @@ a:hover {
     @media screen and (max-width: 375px) {
         header, main, footer, div {
             width: auto;
+        }
+
+        .Info{
+            font-size: 15px;
         }
 
         p {
