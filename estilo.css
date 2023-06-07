@@ -173,6 +173,11 @@ a:hover{
     iframe{
         width: 100%;
     }
+
+    .whats img {
+        width: 70px;
+    height: 70px;
+    }
     
 }
 
